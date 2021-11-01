@@ -21,16 +21,20 @@
             <img src="images/build.svg" alt="Selo Rocketseat" />
           </span>
 
-          <img src="images/gabriel.jpeg" alt="Foto pessoal" />
+          <img
+            id="userPhoto"
+            src="https://lorempixel.com/185/185/people"
+            alt="Foto pessoal"
+          />
         </div>
 
         <h1 id="userName">Mayk Brito</h1>
-        <a id="githubLink" href="https://github.com/" target="_blank">
+        <a id="userLink" href="" target="_blank">
           <img src="images/github 2.svg" alt="ícone github" />
-          gabrielsouzalv</a
+          <span id="userLogin">maykbrito</span></a
         >
 
-        <p>Web development student. Computer Science!</p>
+        <p id="userBio">Web development student. Computer Science!</p>
 
         <ul id="socialLinks">
           <li class="youtube">
@@ -60,35 +64,6 @@
       </div>
     </main>
 
-    <script>
-      // object
-      const linksSocialMedia = {
-        github: 'SouzaGabriel26',
-        youtube: 'rocketseat',
-        facebook: 'rocketseat',
-        instagram: 'gabrielsouzalv',
-        twitter: 'Ga_alv3s'
-      }
-
-      // muda o H1 (id = userName)
-      userName.textContent = 'Gabriel Alves'
-
-      // muda o <a> id = "githubLink"
-      githubLink.href = `https://github.com/${linksSocialMedia.github}`
-
-      function changeSocialMediaLinks() {
-        // para cada li existente nos "filhos" do ul, cujo id = "socialLinks"
-        for (let li of socialLinks.children) {
-          // pega cada classe da "li"
-          const social = li.getAttribute('class')
-
-          // substitui os links pelas classes pegadas anteriormente e pelos usernames
-          // EX: "https://(?).com/(?)" -> "https://youtube.com/rocketseat"
-          li.children[0].href = `https://${social}.com/${linksSocialMedia[social]}`
-        }
-      }
-
-      changeSocialMediaLinks()
-    </script>
+    <script src="main.js"></script>
   </body>
 </html>
