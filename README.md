@@ -4,5 +4,3 @@
 
 - I'm a beginner!
 - I'm following the NLW 7, at Rocketseat!
-
-![Cracha](images/cracha_nlw.png)
