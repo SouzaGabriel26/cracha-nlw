@@ -99,7 +99,8 @@ ul {
 }
 
 #socialLinks img {
-  transition: 0.1s;
+  border-radius: 30%;
+  transition: 0.2s;
 }
 
 #userLink:hover {
@@ -108,5 +109,6 @@ ul {
 }
 
 #socialLinks img:hover {
-  border-radius: 30%;
+  border: solid 2px;
+  border-color: black;
 }
