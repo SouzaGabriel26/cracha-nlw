@@ -5,5 +5,8 @@
 - I'm a beginner!
 - I'm following the NLW 7, at Rocketseat!
 
- 
-[Clique aqui para acessar o crachá no GitHub Page](https://souzagabriel26.github.io/cracha-nlw/)
+[Cliqu aqui para acessar o meu cracha-nlw](https://souzagabriel26.github.io/cracha-nlw/)
+
+### Demonstração do meu projeto:
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/66218607/139904874-e5569b83-68df-49d0-8ae5-26d7e37905e0.gif)
+
